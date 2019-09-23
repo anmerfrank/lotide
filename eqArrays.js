@@ -1,4 +1,3 @@
-
 // Equal Array checker -- this runs fine!
 
 const eqArrays = function(arr1, arr2) {
