@@ -1,20 +1,16 @@
+//Imported function
+
+const assertEqual = require('./assertEqual');
+
+//Function declaration
+
 const head = function(parameter){
   return parameter[0];
 }
 
 
 
-const assertEqual = function(actual, expected) {
-  if (actual !== expected) {
-    console.log(`😿 😿 😿 Assertion Failed: ${actual} !== ${expected}`);
-  } else {
-    console.log(`🐱 🐱 🐱 Assertion Passed: ${actual} === ${expected}`);
-  }
 
-};
+//Export
 
-//Test Code 
-
-assertEqual(head([5,6,7]), 5);
-assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
-assertEqual(head([]))
+module.exports = head;
