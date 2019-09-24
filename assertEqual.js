@@ -1,4 +1,8 @@
 //FUNCTION
+const assertArraysEqual = require('./assertArraysEqual');
+const eqArrays = require('./eqArrays');
+
+
 
 const assertEqual = function(actual, expected) {
   if (actual !== expected) {
