@@ -39,14 +39,15 @@ const map = function(array, callback){
   return results;
 };
 
+// TEST CODE 
 
-const results1 = map (words, word => word[0]);
-const results2 = map (words2, word => word);
-const results3 = map (nums, num => num * 3);
-const results4 = map (flowers, flower => flower + "s");
+// const results1 = map (words, word => word[0]);
+// const results2 = map (words2, word => word);
+// const results3 = map (nums, num => num * 3);
+// const results4 = map (flowers, flower => flower + "s");
 
 
-assertArraysEqual(results1, ["g", "c", "t", "m", "t"]); // this checks out
-assertArraysEqual(results2, ["lost", "like", "tears", "in", "rain"]);
-assertArraysEqual(results3, [9, 15, 21, 27, 36]);
-assertArraysEqual(results4, ["roses", "sunflowers", "nasturtiums", "snapdragons"]);
+// assertArraysEqual(results1, ["g", "c", "t", "m", "t"]); // this checks out
+// assertArraysEqual(results2, ["lost", "like", "tears", "in", "rain"]);
+// assertArraysEqual(results3, [9, 15, 21, 27, 36]);
+// assertArraysEqual(results4, ["roses", "sunflowers", "nasturtiums", "snapdragons"]);

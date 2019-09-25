@@ -39,25 +39,19 @@ const findKey = (object, callback) => {
 
 // TEST CODE
 
-assertArraysEqual(findKey({
-  "Blue Hill": { stars: 1 },
-  "Akaleri":   { stars: 3 },
-  "noma":      { stars: 2 },
-  "elBulli":   { stars: 3 },
-  "Ora":       { stars: 2 },
-  "Akelarre":  { stars: 3 }
-}, x => x.stars === 2), "noma") // => "noma"
+// assertArraysEqual(findKey({
+//   "Blue Hill": { stars: 1 },
+//   "Akaleri":   { stars: 3 },
+//   "noma":      { stars: 2 },
+//   "elBulli":   { stars: 3 },
+//   "Ora":       { stars: 2 },
+//   "Akelarre":  { stars: 3 }
+// }, x => x.stars === 2), "noma") // => "noma"
 
-assertArraysEqual(findKey({
-  "sunflower": { petals: 20 },
-  "rose": { petals: 8},
-  "daisy": { petals: 16},
-  "daffodil": { petals: 7}
-}, x => x.petals === 16), "daisy"); // "daisy" 
+// assertArraysEqual(findKey({
+//   "sunflower": { petals: 20 },
+//   "rose": { petals: 8},
+//   "daisy": { petals: 16},
+//   "daffodil": { petals: 7}
+// }, x => x.petals === 16), "daisy"); // "daisy" 
 
-assertArraysEqual(findKey({
-"me": { name: "Anne" },
-"friend": { name: "Andrea" },
-"partner": { name: "Kevin" },
-"mother": { name: "Gail" }
-}, x => x.name === "Gail"), "mother"); // "mother"

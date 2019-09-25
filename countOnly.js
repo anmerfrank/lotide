@@ -47,11 +47,3 @@ assertEqual(result1["Karima"], undefined);
 assertEqual(result1["Fang"], undefined);
 
 
-// PSEUDOCODE from morning lecture
-// function countWords(sentence) => object/map/aa
-// split the sentence by space (str => array of words)
-// start with an empty results table / object
-// loop through the words => word
-// if word in results, then increase its value by 1
-// else add it to results with a value of 1
-// return results
